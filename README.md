@@ -8,14 +8,14 @@
 ```
 artificial_intelligence_13119_003/
 │── work/
-│   ├── work_0/
-│   │   ├── main.py          # 과제 0의 메인 코드
-│   │   ├── dataset/
-│   │   │   ├── iris.csv     # 과제 0에서 사용된 데이터셋
-│   │   ├── work_0.md        # 과제 0 설명 문서
 │   ├── work_1/
+│   │   ├── main.py          # 과제 1의 메인 코드
+│   │   ├── dataset/
+│   │   │   ├── iris.csv     # 과제 1에서 사용된 데이터셋
+│   │   ├── work_1.md        # 과제 1 설명 문서
 │   ├── work_2/
 │   ├── work_3/
+│   ├── work_4/
 │   └── ...
 ```
 
@@ -25,10 +25,10 @@ artificial_intelligence_13119_003/
 ## 과제 목록
 | 과제 번호 | 설명 |
 |-----------|------|
-| work_0 | iris 데이터셋을 활용한 분류 실습 |
-| work_1 | TBD |
+| work_1 | iris 데이터셋을 활용한 분류 실습 |
 | work_2 | TBD |
 | work_3 | TBD |
+| work_4 | TBD |
 
 ## 실행 방법
 1. Python이 설치되어 있는지 확인하세요.  
@@ -38,7 +38,7 @@ artificial_intelligence_13119_003/
    ```
 3. 작업 폴더로 이동 후 `main.py` 실행
    ```bash
-   cd artificial_intelligence_13119_003/work/work_0
+   cd artificial_intelligence_13119_003/work/work_1
    python main.py
    ```
 

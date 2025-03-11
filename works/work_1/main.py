@@ -20,8 +20,8 @@ if __name__ == "__main__":
 
     classifier_list = []
     classifier_list.append(("DT", DecisionTreeClassifier()))
-    classifier_list.append(("RF", SVC()))
-    classifier_list.append(("SVM", RandomForestClassifier()))
+    classifier_list.append(("RF", RandomForestClassifier()))
+    classifier_list.append(("SVM", SVC()))
     classifier_list.append(("LR", LogisticRegression()))
     
     results = []

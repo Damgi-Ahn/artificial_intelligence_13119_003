@@ -13,9 +13,9 @@ DATASET_PATH = "dataset/iris.csv"  # 본인이 iris.csv를 저장한 경로를 �
 
 if __name__ == "__main__":
     iris_dataset = pd.read_csv(DATASET_PATH)
-    iris_dataset['target'] = iris_dataset['Name'].map({"Iris-setosa": 0, "Iris-versicolor": 1, "Iris-virginica": 2})
+    iris_dataset['target'] = iris_dataset['price_range']
 
-    x_data = iris_dataset.iloc[:, :4]
+    x_data = iris_dataset.iloc[:, :18]
     y_data = iris_dataset.iloc[:, [-1]]
 
     classifier_list = []
